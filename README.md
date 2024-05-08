@@ -1,4 +1,4 @@
-# EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER
+# EXPERIMENT--06-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER
 
 ### Aim:
 To generate a PWM wave at the timer pin output and  simuate it on  proteus using an virtual oscilloscope  
@@ -111,31 +111,44 @@ Step14. click on debug and simulate using simulation as shown below
  ![](./outputm3.jpg)
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![](./6design.png)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-FOR PULSE AT 500
-
-TON = 
-TOFF=
-TOTAL TIME = 
+## FOR PULSE AT 5000
+```
+TON =1.5*0.2m = 0.3ms 
+TOFF=1.5*0.2m = 0.3ms
+TOTAL TIME = 0.3ms + 0.3ms = 0.6ms
 FREQUENCY = 1/(TOTAL TIME)
+F=1/0.6ms = 1.66*10^3Hz
+F = 1.6 KHz
+Duty = 0.3ms/0.6ms = 1/2 = 0.5*100 = 50%
+```
 
-FOR PULSE AT 700
+## FOR PULSE AT 7500
 
-TON = 
-TOFF=
-TOTAL TIME = 
+```
+TON = 2.2*0.2m = 0.44ms
+TOFF = 0.8*0.2m = 0.16ms 
+TOTAL TIME = 0.44ms + 0.16ms = 0.6ms
 FREQUENCY = 1/(TOTAL TIME)
+F=1/0.6ms = 1.666*10^3Hz
+F = 1.6 KHz
+Duty = 0.44ms/0.6ms = 0.73*100 = 73%
+```
 
 
-FOR PULSE AT 900
+## FOR PULSE AT 2500
 
-TON = 
-TOFF=
-TOTAL TIME = 
+```
+TON = 0.8*0.2m = 0.16ms
+TOFF= 2.2*0.2m = 0.44ms
+TOTAL TIME = 0.16ms + 0.44ms = 0.6ms
 FREQUENCY = 1/(TOTAL TIME)
-
+F=1/0.6ms = 1.666*10^3Hz
+F = 1.6KHz
+Duty = 0.16ms/0.6ms = 0.26*100 = 26%
+```
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
