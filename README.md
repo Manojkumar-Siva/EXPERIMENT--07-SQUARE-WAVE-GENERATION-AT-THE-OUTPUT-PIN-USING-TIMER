@@ -102,7 +102,13 @@ Step14. click on debug and simulate using simulation as shown below
 
 
 ## Output screen shots of proteus  :
- 
+## For Pulse at 5000:
+![](./outputm1.jpg)
+## For Pulse at 7500:
+![](./outputm2.jpg)
+
+## For Pulse at 2500:
+ ![](./outputm3.jpg)
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
